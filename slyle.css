@@ -1,0 +1,116 @@
+/*
+███████ ████████ ██    ██ ██      ███████
+██         ██     ██  ██  ██      ██
+███████    ██      ████   ██      █████
+     ██    ██       ██    ██      ██
+███████    ██       ██    ███████ ███████
+*/
+.js-filter__main {
+  position: fixed;
+  top: 0;
+  right: 10px;
+  z-index: 1000;
+  width: 260px;
+  max-height: 90%;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px #cccccc;
+  font-size: 0;
+  text-align: center;
+}
+.js-filter__top-panel {
+  position: relative;
+  padding: 2px 4px;
+  background-color: #ffb300;
+  text-align: left;
+}
+.js-filter__top-block {
+  padding: 5px 15px 15px;
+  margin-bottom: 20px;
+  background-color: #ffb300;
+}
+.js-filter__top-text {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.js-filter__btn {
+  background-color: #9ccc65;
+  color: #ffffff;
+}
+.js-filter__btn--open {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  z-index: 900;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffb300;
+  cursor: pointer;
+  color: #ffffff;
+  text-align: center;
+  font-size: 34px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.js-filter__btn--close-old {
+  margin-top: 0px;
+  border-color: #ff5722;
+  background-color: #ff5722;
+  color: #ffffff;
+}
+.js-filter__btn--close {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: #ff5722;
+  cursor: pointer;
+  color: #ffffff;
+  text-align: center;
+  font-size: 9px;
+  font-weight: bold;
+}
+.js-filter__btn--mini {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 39%;
+  height: 37px;
+  padding: 0;
+  margin: 5px 2px;
+  background-color: #5c6bc0;
+  border: 1px solid #5c6bc0;
+  overflow: hidden;
+  cursor: pointer;
+  color: #ffffff;
+  text-align: center;
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.js-filter__info-parameter {
+  width: 80%;
+  margin: 30px auto 20px;
+  color: #212121;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.js-filter__items {
+  box-sizing: border-box;
+  width: 80%;
+  height: 30px;
+  padding: 0 10px;
+  margin: 5px auto;
+  border: 1px solid #9ccc65;
+  color: #212121;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
